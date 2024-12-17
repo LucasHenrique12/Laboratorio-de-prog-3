@@ -1,0 +1,16 @@
+{
+  "name": "atividade3",
+  "version": "1.0.0",
+  "description": "Projeto para ativdade 3 insetion sort",
+  "main": "index.js",
+  "scripts": {
+   "cp":"npx tsc",
+   "dev": "node build/index"
+  },
+  "author": "Lucas Henrique",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
+}
