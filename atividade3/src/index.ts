@@ -1,5 +1,5 @@
 import { selectionSort } from "./func/selectionSort";
-
+import { People } from "./type/people";
 console.log("Iniciando")
 
 const numbers = [64, 25, 12, 22, 11];
@@ -11,10 +11,7 @@ const sortedStrings = selectionSort(strings, (a, b) => a.localeCompare(b));
 console.log("Ordenado (strings):", sortedStrings);
 
 
-type People = {
-    name: string;
-    age: number;
-};
+
 
 const peopleList: People[] = [
     { name: "Bruno", age: 25 },
