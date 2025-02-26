@@ -1,0 +1,9 @@
+label {
+    display: block;
+    font-size: 2rem;
+    color: black;
+  }
+  
+  input,label {
+    margin: 0.4rem 0;
+  }

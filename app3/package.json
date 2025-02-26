@@ -1,0 +1,15 @@
+{
+  "name": "app3",
+  "version": "1.0.0",
+  "description": "APP aula",
+  "main": "index.js",
+  "scripts": {
+    "cp":"npx tsc",
+    "dev": "node build/index" 
+  },
+  "author": "Lucas Henrique",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
