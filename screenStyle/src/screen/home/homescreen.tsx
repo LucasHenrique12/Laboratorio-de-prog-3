@@ -6,6 +6,7 @@ import { StyleSheet } from "react-native";
 import { router } from "expo-router";
 import { useState } from "react";
 import ModalScreen from "@/src/components/modalscreen";
+import Registro from "@/src/components/registro";
 const PlaceholderImage = require("@/assets/images/kapo.png");
 
 export function HomeScreen() {
@@ -26,9 +27,7 @@ export function HomeScreen() {
    {()=>setIsModalVisible(true)} />
    <Button label="Details" onPress={clickDetails} />
    </ThemedView>
-   <ModalScreen isVisible={isModalVisible} onClose={onModalClose}>
-   {/* aqui fica o conteúdo do modal */}
-   </ModalScreen>
+   <Registro isVisible={isModalVisible} onClose={onModalClose}/>
    </ThemedView>
    );
    }
